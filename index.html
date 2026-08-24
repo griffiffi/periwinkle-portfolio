@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Duan Tianyang - Portfolio</title>
+        <meta name="author" content="Duan Tianyang">
+        <meta name="description" content="Duan Tianyangのポートフォリオ - イラスト・ゲーム開発・3Dレンダリング">
+        <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    </head>
+    <body>
+
+    <header>
+    </header>
+
+    <div id="topbar">
+        <div id="topbar-inner">
+            <div id="avatar">
+                <img src="images/me.png" alt="アイコン">
+            </div>
+            <div id="bio">
+                <p class="bio-name">Duan Tianyang</p>
+                <p>イラスト / ゲーム開発 / 3D</p>
+                <p>立命館大学 情報理工学部</p>
+            </div>
+            <div id="topbar-skills">
+                <ul>
+                    <li>イラストレーション</li>
+                    <li>ゲーム開発</li>
+                    <li>3Dレンダリング</li>
+                </ul>
+            </div>
+            <nav id="topbar-nav">
+                <ul>
+                    <li><a href="#videos">映像作品</a></li>
+                    <li><a href="#events">活動</a></li>
+                    <li><a href="#illustrations">イラスト</a></li>
+                    <li><a href="#sketches">スケッチ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div id="content">
+
+    <main>
+
+        <article id="top" class="clearfix">
+            <div class="img-right">
+                <img src="works/paint/IMG_7678.JPG" alt="代表作" style="max-width:240px; border-radius:.5em;">
+            </div>
+            <section>
+                <h1>はじめまして！</h1>
+                <p>Duan Tianyangと申します。立命館大学 情報理工学部出身です。イラスト、ゲームビジュアル、3Dレンダリングなどの作品を制作しています。</p>
+                <p>こちらのポートフォリオでは、イラスト作品やスケッチ、ゲーム開発の映像をご紹介しています。ぜひご覧ください！</p>
+            </section>
+        </article>
+
+        <article id="videos">
+            <div class="post-header">
+                映像作品 <span class="timestamp">ゲーム開発など</span>
+            </div>
+
+            <p class="small-text" style="color:var(--border-color); margin-bottom:.5em;">← スクロールしてご覧ください →</p>
+
+            <div class="gallery-wrapper">
+                <button class="gallery-btn gallery-btn-left" onclick="this.nextElementSibling.scrollBy({left:-480,behavior:'smooth'})">&lsaquo;</button>
+                <div class="gallery-scroll gallery-video">
+                    <div class="video-card">
+                        <h3>作品集映像</h3>
+                        <video controls style="border-radius:.3em;">
+                            <source src="works/video/DUAN_Tianyang_B①映像資料.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="video-card">
+                        <h3>VR Demo</h3>
+                        <video controls style="border-radius:.3em;">
+                            <source src="works/video/日本語バージョン.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="video-card">
+                        <h3>インタラクション学会</h3>
+                        <video controls style="border-radius:.3em;">
+                            <source src="works/interactiongakkai/2026インタラクション.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <button class="gallery-btn gallery-btn-right" onclick="this.previousElementSibling.scrollBy({left:480,behavior:'smooth'})">&rsaquo;</button>
+            </div>
+
+        </article>
+
+        <article id="events">
+            <div class="post-header">
+                学会・イベント活動 <span class="timestamp">Activities</span>
+            </div>
+
+            <p class="small-text" style="color:var(--border-color); margin-bottom:.5em;">← スクロールしてご覧ください →</p>
+
+            <div class="gallery-wrapper">
+                <button class="gallery-btn gallery-btn-left" onclick="this.nextElementSibling.scrollBy({left:-320,behavior:'smooth'})">&lsaquo;</button>
+                <div class="gallery-scroll">
+                    <a href="works/invent/e3b1d7983570b9a72e28f07f72f807d8.png" target="_blank"><img alt="学会発表" src="works/invent/e3b1d7983570b9a72e28f07f72f807d8.png"></a>
+                    <a href="works/invent/3f039725961fc07724729d01ce2c4aae.png" target="_blank"><img alt="研究発表" src="works/invent/3f039725961fc07724729d01ce2c4aae.png"></a>
+                    <a href="works/invent/44b059c32afff88c782de21c0f5276ed.png" target="_blank"><img alt="DJパフォーマンス" src="works/invent/44b059c32afff88c782de21c0f5276ed.png"></a>
+                    <a href="works/invent/25f0947aa8dde544db760b4fc61a338e.png" target="_blank"><img alt="ワークショップ活動" src="works/invent/25f0947aa8dde544db760b4fc61a338e.png"></a>
+                </div>
+                <button class="gallery-btn gallery-btn-right" onclick="this.previousElementSibling.scrollBy({left:320,behavior:'smooth'})">&rsaquo;</button>
+            </div>
+
+        </article>
+
+        <article id="illustrations">
+            <div class="post-header">
+                イラスト作品 <span class="timestamp">完成作品</span>
+            </div>
+
+            <h2>完成イラスト</h2>
+            <p class="small-text" style="color:var(--border-color); margin-bottom:.5em;">← スクロールしてご覧ください →</p>
+
+            <div class="gallery-wrapper">
+                <button class="gallery-btn gallery-btn-left" onclick="this.nextElementSibling.scrollBy({left:-320,behavior:'smooth'})">&lsaquo;</button>
+                <div class="gallery-scroll">
+                    <a href="works/paint/1FA3145F6FB84D707149F58239702B56.PNG" target="_blank"><img alt="キャラクターイラスト - 紫の夜" src="works/paint/1FA3145F6FB84D707149F58239702B56.PNG"></a>
+                    <a href="works/paint/518FD50D6243DD8BCB2F986FABC5A19C.PNG" target="_blank"><img alt="キャラクターイラスト" src="works/paint/518FD50D6243DD8BCB2F986FABC5A19C.PNG"></a>
+                    <a href="works/paint/F4FDA7AFBD392DAB7C1962D28F2F92B8.PNG" target="_blank"><img alt="キャラクターイラスト - リボン" src="works/paint/F4FDA7AFBD392DAB7C1962D28F2F92B8.PNG"></a>
+                    <a href="works/paint/IMG_3320.JPG" target="_blank"><img alt="グループポートレート" src="works/paint/IMG_3320.JPG"></a>
+                    <a href="works/paint/IMG_5211.JPG" target="_blank"><img alt="赤髪キャラクター" src="works/paint/IMG_5211.JPG"></a>
+                    <a href="works/paint/IMG_7678.JPG" target="_blank"><img alt="ファンタジーキャラクター" src="works/paint/IMG_7678.JPG"></a>
+                    <a href="works/paint/IMG_8904.JPG" target="_blank"><img alt="ファンアート" src="works/paint/IMG_8904.JPG"></a>
+                    <a href="works/paint/IMG_9093.jpg" target="_blank"><img alt="バースデーイラスト" src="works/paint/IMG_9093.jpg"></a>
+                    <a href="works/paint/gudu.jpg" target="_blank"><img alt="天使イラスト" src="works/paint/gudu.jpg"></a>
+                    <a href="works/paint/007WSNXkly1hn9agl8n1bj31o01r47wj.jpg" target="_blank"><img alt="炎のキャラクター" src="works/paint/007WSNXkly1hn9agl8n1bj31o01r47wj.jpg"></a>
+                    <a href="works/paint/007WSNXkly1h9gn8gdr2bj30u00u01f3.jpg" target="_blank"><img alt="果実の中の少女" src="works/paint/007WSNXkly1h9gn8gdr2bj30u00u01f3.jpg"></a>
+                    <a href="works/paint/007WSNXkly1hk05ercfn7j30qy0lcwg8.jpg" target="_blank"><img alt="キャラクターイラスト" src="works/paint/007WSNXkly1hk05ercfn7j30qy0lcwg8.jpg"></a>
+                    <a href="works/paint/1da564e93b5e17ba3bbd7432709150d5.jpg" target="_blank"><img alt="モノクロイラスト" src="works/paint/1da564e93b5e17ba3bbd7432709150d5.jpg"></a>
+                    <a href="works/paint/2bb0ed7069c744e3d57670073edb6236.jpg" target="_blank"><img alt="夕焼けの少女" src="works/paint/2bb0ed7069c744e3d57670073edb6236.jpg"></a>
+                    <a href="works/paint/5e05ba3836d2990fd887c6984b2e3422.jpg" target="_blank"><img alt="りんごとキャラクター" src="works/paint/5e05ba3836d2990fd887c6984b2e3422.jpg"></a>
+                    <a href="works/paint/61240ccb8fd3b6fcd883352847cb89f1.jpg" target="_blank"><img alt="チューリップの少女" src="works/paint/61240ccb8fd3b6fcd883352847cb89f1.jpg"></a>
+                    <a href="works/paint/9d741c39ae69629f1f4e2f955df59f31.jpg" target="_blank"><img alt="剣を持つバニーガール" src="works/paint/9d741c39ae69629f1f4e2f955df59f31.jpg"></a>
+                    <a href="works/paint/9e257c4a1c3dfc43b200e599469893eb.jpg" target="_blank"><img alt="蛇とキャラクター" src="works/paint/9e257c4a1c3dfc43b200e599469893eb.jpg"></a>
+                    <a href="works/paint/a6bc99961a10fc5b14c6293cf2969b0f.jpg" target="_blank"><img alt="ドラマチックシーン" src="works/paint/a6bc99961a10fc5b14c6293cf2969b0f.jpg"></a>
+                    <a href="works/paint/be8a429f83b42ea9a2a5df5e4ff32587.jpg" target="_blank"><img alt="サイバーパンク二人組" src="works/paint/be8a429f83b42ea9a2a5df5e4ff32587.jpg"></a>
+                    <a href="works/paint/de7e3d0d487937d0ac02fcf545a48cea.jpg" target="_blank"><img alt="ピンク髪の少女" src="works/paint/de7e3d0d487937d0ac02fcf545a48cea.jpg"></a>
+                    <video controls muted loop style="height:360px; width:auto; max-width:none; border-radius:.3em; box-shadow:var(--post-shadow-color) 3px 3px;">
+                        <source src="works/paint/001iNCc8gx081CvKS1Ly0f0f01002eDS0k01.mov">
+                    </video>
+                </div>
+                <button class="gallery-btn gallery-btn-right" onclick="this.previousElementSibling.scrollBy({left:320,behavior:'smooth'})">&rsaquo;</button>
+            </div>
+
+        </article>
+
+        <article id="sketches">
+            <div class="post-header">
+                スケッチ＆制作過程 <span class="timestamp">制作中の作品</span>
+            </div>
+
+            <h2>制作過程＆ラフスケッチ</h2>
+            <p class="small-text" style="color:var(--border-color); margin-bottom:.5em;">← スクロールしてご覧ください →</p>
+
+            <div class="gallery-wrapper">
+                <button class="gallery-btn gallery-btn-left" onclick="this.nextElementSibling.scrollBy({left:-320,behavior:'smooth'})">&lsaquo;</button>
+                <div class="gallery-scroll">
+                    <a href="works/paint/IMG_4417.JPG" target="_blank"><img alt="制作過程 - 白い魔女" src="works/paint/IMG_4417.JPG"></a>
+                    <a href="works/paint/IMG_4418.JPG" target="_blank"><img alt="制作過程 - ピンクの魔女" src="works/paint/IMG_4418.JPG"></a>
+                    <a href="works/paint/IMG_4411.PNG" target="_blank"><img alt="スケッチ - ロングヘア" src="works/paint/IMG_4411.PNG"></a>
+                    <a href="works/paint/IMG_4415.JPG" target="_blank"><img alt="スケッチ - 武器少女" src="works/paint/IMG_4415.JPG"></a>
+                    <a href="works/paint/IMG_4419.JPG" target="_blank"><img alt="スケッチ - メガネ" src="works/paint/IMG_4419.JPG"></a>
+                    <a href="works/paint/IMG_4422.JPG" target="_blank"><img alt="スケッチ - 包帯キャラ" src="works/paint/IMG_4422.JPG"></a>
+                    <a href="works/paint/IMG_8537.JPG" target="_blank"><img alt="スケッチ - 緑フード" src="works/paint/IMG_8537.JPG"></a>
+                    <a href="works/paint/IMG_8550.JPG" target="_blank"><img alt="スケッチ - 緑フード全身" src="works/paint/IMG_8550.JPG"></a>
+                    <a href="works/paint/af8097f38d4f5654e30d62538d6603a2.jpg" target="_blank"><img alt="鉛筆デッサン - 建物と静物" src="works/paint/af8097f38d4f5654e30d62538d6603a2.jpg"></a>
+                </div>
+                <button class="gallery-btn gallery-btn-right" onclick="this.previousElementSibling.scrollBy({left:320,behavior:'smooth'})">&rsaquo;</button>
+            </div>
+
+        </article>
+
+    </main>
+
+    </div>
+
+    <footer>&copy; 2026 Duan Tianyang</footer>
+    </body>
+</html>
