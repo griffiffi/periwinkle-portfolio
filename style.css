@@ -396,6 +396,31 @@ details > summary {cursor:pointer;}
     max-width: none;
     box-shadow: var(--post-shadow-color) 3px 3px;
 }
+.video-card iframe {
+    width: 480px;
+    height: 320px;
+    border: none;
+    border-radius: .3em;
+    box-shadow: var(--post-shadow-color) 3px 3px;
+}
+
+#topbar-links {
+    display: flex;
+    gap: .5em;
+}
+#topbar-links a {
+    font-size: .85em;
+    font-weight: bold;
+    background-color: var(--bg-color);
+    border: 3px double var(--outline-color);
+    padding: .4em 1em;
+    text-decoration: none;
+    border-radius: .3em;
+}
+#topbar-links a:hover {
+    color: var(--accent-color);
+    background-color: var(--select-color);
+}
 
 footer {
     text-align: center;
