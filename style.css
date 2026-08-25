@@ -422,6 +422,33 @@ details > summary {cursor:pointer;}
     background-color: var(--select-color);
 }
 
+.publication-list {
+    list-style: none;
+    padding-left: 0;
+}
+.publication-list li {
+    list-style-image: none;
+    padding: .6em 0;
+    border-bottom: 1px dashed var(--outline-color);
+    line-height: 1.6;
+}
+.publication-list li:last-child {
+    border-bottom: none;
+}
+.publication-list a {
+    font-weight: bold;
+    font-size: .95em;
+}
+.pub-authors {
+    font-size: .85em;
+    color: var(--text-color);
+}
+.pub-venue {
+    font-size: .8em;
+    color: var(--border-color);
+    font-style: italic;
+}
+
 footer {
     text-align: center;
     font-size: small;
